@@ -1,4 +1,4 @@
-package com.shoeclue.dao;
+package com.ectronics.dao;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.shoeclue.model.UsersDetail;
-import com.shoeclue.model.Cart;
-import com.shoeclue.model.UserRole;
+import com.ectronics.model.UsersDetail;
+import com.ectronics.model.Cart;
+import com.ectronics.model.UserRole;
 @Repository
 public class UsersDetailDaoImpl implements UsersDetailDao{
 	@Autowired

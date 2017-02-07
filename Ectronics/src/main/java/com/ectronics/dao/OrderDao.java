@@ -1,6 +1,6 @@
-package com.shoeclue.dao;
+package com.ectronics.dao;
 
-import com.shoeclue.model.UserOrder;
+import com.ectronics.model.UserOrder;
 
 
 public interface OrderDao {

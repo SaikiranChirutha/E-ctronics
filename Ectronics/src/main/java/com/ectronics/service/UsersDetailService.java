@@ -1,8 +1,8 @@
-package com.shoeclue.service;
+package com.ectronics.service;
 
 import java.util.List;
 
-import com.shoeclue.model.UsersDetail;
+import com.ectronics.model.UsersDetail;
 
 public interface UsersDetailService {
 	public abstract void signUp(UsersDetail customer);

@@ -1,5 +1,5 @@
 
-package com.shoeclue.controller;
+package com.ectronics.controller;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,10 +28,10 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.shoeclue.model.UsersDetail;
-import com.shoeclue.model.Item;
-import com.shoeclue.service.UsersDetailService;
-import com.shoeclue.service.ItemDaoService;
+import com..model.UsersDetail;
+import com..model.Item;
+import com..service.UsersDetailService;
+import com..service.ItemDaoService;
 @Controller
 public class AdminController {
 	Path path;
@@ -170,7 +170,7 @@ public String logout(HttpServletRequest request)
          String rootDirectory = request.getSession().getServletContext().getRealPath("/");
          //System.out.println("root directory:"+rootDirectory);
          //System.out.println("hehehe:"+".\\WEB-INF\\resources\\images\\"+p.getProduct_id()+".jpg");
-         path = Paths.get("F://projectreferences//shoeclue//src//main//webapp//resources//images//"+p.getProduct_id()+".jpg");
+         path = Paths.get("F://projectreferences////src//main//webapp//resources//images//"+p.getProduct_id()+".jpg");
 System.out.println();
 
          if (itemImage != null && !itemImage.isEmpty()) {
@@ -190,7 +190,7 @@ System.out.println();
             try {
                 fileName = file.getOriginalFilename();
                 byte[] bytes = file.getBytes();
- BufferedOutputStream buffStream = new BufferedOutputStream(new FileOutputStream(new File("H:/spring framework/project1/shoeclue/src/main/webapp/resources/images/" + fileName)));
+ BufferedOutputStream buffStream = new BufferedOutputStream(new FileOutputStream(new File("H:/spring framework/project1//src/main/webapp/resources/images/" + fileName)));
                 buffStream.write(bytes);
                 buffStream.close();
                 error= "You have successfully uploaded " + fileName;
@@ -204,8 +204,8 @@ System.out.println();
         }
     	productService.addProduct(p);
     	
-    	File oldName = new File("H:/spring framework/project1/shoeclue/src/main/webapp/resources/images/" + fileName);
-        File newName = new File("H:/spring framework/project1/shoeclue/src/main/webapp/resources/images/" + p.getProduct_id()+fileName.substring(fileName.indexOf(".")));
+    	File oldName = new File("H:/spring framework/project1//src/main/webapp/resources/images/" + fileName);
+        File newName = new File("H:/spring framework/project1//src/main/webapp/resources/images/" + p.getProduct_id()+fileName.substring(fileName.indexOf(".")));
         System.out.println("new file name:--------------->"+newName);
         if(oldName.renameTo(newName)) {
            System.out.println(p.getProduct_id());

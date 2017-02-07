@@ -1,6 +1,6 @@
-package com.shoeclue.service;
+package com.ectronics.service;
 
-import com.shoeclue.model.UserOrder;
+import com.ectronics.model.UserOrder;
 
 
 public interface OrderService {

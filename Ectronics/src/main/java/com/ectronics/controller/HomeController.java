@@ -1,4 +1,4 @@
-package com.shoeclue.controller;
+package com.ectronics.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,12 +20,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.shoeclue.dao.UsersDetailDao;
-import com.shoeclue.model.UsersDetail;
-import com.shoeclue.model.Item;
-import com.shoeclue.model.ShippingAdd;
-import com.shoeclue.service.UsersDetailService;
-import com.shoeclue.service.ItemDaoService;
+import com.ectronics.dao.UsersDetailDao;
+import com.ectronics.model.UsersDetail;
+import com.ectronics.model.Item;
+import com.ectronics.model.ShippingAdd;
+import com.ectronics.service.UsersDetailService;
+import com.ectronics.service.ItemDaoService;
 @Controller
 public class HomeController {
 	@Autowired

@@ -1,4 +1,4 @@
-package com.shoeclue.model;
+package com.ectronics.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

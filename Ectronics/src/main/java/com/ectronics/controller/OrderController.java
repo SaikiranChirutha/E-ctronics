@@ -1,10 +1,10 @@
-package com.shoeclue.controller;
+package com.ectronics.controller;
 
-import com.shoeclue.model.Cart;
-import com.shoeclue.model.UsersDetail;
-import com.shoeclue.model.UserOrder;
-import com.shoeclue.service.CartService;
-import com.shoeclue.service.OrderService;
+import com.ectronics.model.Cart;
+import com.ectronics.model.UsersDetail;
+import com.ectronics.model.UserOrder;
+import com.ectronics.service.CartService;
+import com.ectronics.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,7 +1,7 @@
-package com.shoeclue.controller;
+package com.ectronics.controller;
 
-import com.shoeclue.model.Item;
-import com.shoeclue.service.ItemDaoService;
+import com.ectronics.model.Item;
+import com.ectronics.service.ItemDaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

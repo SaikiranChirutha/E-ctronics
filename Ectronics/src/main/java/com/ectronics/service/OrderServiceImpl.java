@@ -1,11 +1,11 @@
-package com.shoeclue.service;
+package com.ectronics.service;
 
-import com.shoeclue.dao.OrderDao;
-import com.shoeclue.model.Cart;
-import com.shoeclue.model.CartItem;
-import com.shoeclue.model.UserOrder;
-import com.shoeclue.service.CartService;
-import com.shoeclue.service.OrderService;
+import com.ectronics.dao.OrderDao;
+import com.ectronics.model.Cart;
+import com.ectronics.model.CartItem;
+import com.ectronics.model.UserOrder;
+import com.ectronics.service.CartService;
+import com.ectronics.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,14 +1,13 @@
-package com.shoeclue.controller;
+package com.ectronics.controller;
 
-import com.shoeclue.model.Cart;
-import com.shoeclue.model.CartItem;
-import com.shoeclue.model.UsersDetail;
-import com.shoeclue.model.Item;
-import com.shoeclue.service.CartItemService;
-import com.shoeclue.service.CartService;
-import com.shoeclue.service.ItemDaoService;
-import com.shoeclue.service.UsersDetailService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.ectronics.model.Cart;
+import com.ectronics.model.CartItem;
+import com.ectronics.model.UsersDetail;
+import com.ectronics.model.Item;
+import com.ectronics.service.CartItemService;
+import com.ectronics.service.CartService;
+import com.ectronics.service.ItemDaoService;
+import com.ectronics.service.UsersDetailService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.bind.annotation.AuthenticationPrincipal;

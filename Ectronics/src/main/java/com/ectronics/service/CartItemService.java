@@ -1,7 +1,7 @@
-package com.shoeclue.service;
+package com.ectronics.service;
 
-import com.shoeclue.model.Cart;
-import com.shoeclue.model.CartItem;
+import com.ectronics.model.Cart;
+import com.ectronics.model.CartItem;
 
 
 public interface CartItemService {

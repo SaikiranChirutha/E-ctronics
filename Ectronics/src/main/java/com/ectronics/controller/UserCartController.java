@@ -1,7 +1,7 @@
-package com.shoeclue.controller;
+package com.ectronics.controller;
 
-import com.shoeclue.model.UsersDetail;
-import com.shoeclue.service.UsersDetailService;
+import com.ectronics.model.UsersDetail;
+import com.ectronics.service.UsersDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.bind.annotation.AuthenticationPrincipal;

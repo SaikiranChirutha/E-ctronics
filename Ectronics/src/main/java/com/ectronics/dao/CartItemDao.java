@@ -1,7 +1,7 @@
-package com.shoeclue.dao;
+package com.ectronics.dao;
 
-import com.shoeclue.model.Cart;
-import com.shoeclue.model.CartItem;
+import com.ectronics.model.Cart;
+import com.ectronics.model.CartItem;
 
 
 public interface CartItemDao {

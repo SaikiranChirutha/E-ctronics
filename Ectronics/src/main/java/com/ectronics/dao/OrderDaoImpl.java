@@ -1,7 +1,7 @@
-package com.shoeclue.dao;
+package com.ectronics.dao;
 
-import com.shoeclue.dao.OrderDao;
-import com.shoeclue.model.UserOrder;
+import com.ectronics.dao.OrderDao;
+import com.ectronics.model.UserOrder;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

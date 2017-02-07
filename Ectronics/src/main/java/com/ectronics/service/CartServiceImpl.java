@@ -1,8 +1,8 @@
-package com.shoeclue.service;
+package com.ectronics.service;
 
-import com.shoeclue.dao.CartDao;
-import com.shoeclue.model.Cart;
-import com.shoeclue.service.CartService;
+import com.ectronics.dao.CartDao;
+import com.ectronics.model.Cart;
+import com.ectronics.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

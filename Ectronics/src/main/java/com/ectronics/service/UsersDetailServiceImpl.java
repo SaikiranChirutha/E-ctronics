@@ -1,12 +1,12 @@
-package com.shoeclue.service;
+package com.ectronics.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.shoeclue.dao.UsersDetailDao;
-import com.shoeclue.model.UsersDetail;
+import com.ectronics.dao.UsersDetailDao;
+import com.ectronics.model.UsersDetail;
 @Service
 public class UsersDetailServiceImpl implements UsersDetailService{
 	@Autowired

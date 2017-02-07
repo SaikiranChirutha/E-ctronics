@@ -1,6 +1,6 @@
-package com.shoeclue.dao;
+package com.ectronics.dao;
 
-import com.shoeclue.model.Cart;
+import com.ectronics.model.Cart;
 
 import java.io.IOException;
 

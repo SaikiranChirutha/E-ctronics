@@ -1,8 +1,8 @@
-package com.shoeclue.dao;
+package com.ectronics.dao;
 
-import com.shoeclue.dao.CartDao;
-import com.shoeclue.model.Cart;
-import com.shoeclue.service.OrderService;
+import com.ectronics.dao.CartDao;
+import com.ectronics.model.Cart;
+import com.ectronics.service.OrderService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
